@@ -1,0 +1,926 @@
+{
+  "assetAdministrationShells": [
+    {
+      "hasDataSpecification": [],
+      "derivedFrom": {
+        "keys": []
+      },
+      "asset": {
+        "keys": []
+      },
+      "submodels": [
+        {
+          "keys": [
+            {
+              "type": "Submodel",
+              "local": true,
+              "value": "https://example.com/ids/sm/3460_6190_1122_7569",
+              "index": 0,
+              "idType": "IRI"
+            }
+          ]
+        },
+        {
+          "keys": [
+            {
+              "type": "Submodel",
+              "local": true,
+              "value": "https://example.com/ids/sm/5163_6190_1122_8817",
+              "index": 0,
+              "idType": "IRI"
+            }
+          ]
+        },
+        {
+          "keys": [
+            {
+              "type": "Submodel",
+              "local": true,
+              "value": "https://example.com/ids/sm/9455_2231_1122_6691",
+              "index": 0,
+              "idType": "IRI"
+            }
+          ]
+        }
+      ],
+      "conceptDictionaries": [],
+      "identification": {
+        "idType": "IRI",
+        "id": "AssetAdministrationShell---26A2B87F"
+      },
+      "administration": {
+        "version": "1",
+        "revision": "0"
+      },
+      "idShort": "Product Assembly_007",
+      "category": "VARIABLE",
+      "modelType": {
+        "name": "AssetAdministrationShell"
+      },
+      "descriptions": []
+    }
+  ],
+  "assets": [],
+  "submodels": [
+    {
+      "semanticId": {
+        "keys": []
+      },
+      "qualifiers": [],
+      "hasDataSpecification": [],
+      "identification": {
+        "idType": "IRI",
+        "id": "https://example.com/ids/sm/3460_6190_1122_7569"
+      },
+      "administration": {
+        "version": "",
+        "revision": ""
+      },
+      "idShort": "Product Property",
+      "category": "VARIABLE",
+      "modelType": {
+        "name": "Submodel"
+      },
+      "kind": "Instance",
+      "submodelElements": [
+        {
+          "value": "350 g",
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Mass",
+          "category": "CONSTANT",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "integer"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "50X50X100 mm",
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Dimensions",
+          "category": "CONSTANT",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "integer"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "10-45 C",
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Temperature",
+          "category": "CONSTANT",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "anyType"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "25/25/50",
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Center of Mass",
+          "category": "CONSTANT",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "anyType"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "0,2",
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Static Friction Coefficient",
+          "category": "CONSTANT",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "decimal"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "NO",
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Magnetic",
+          "category": "CONSTANT",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "anyType"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "ordered": false,
+          "allowDuplicates": false,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Sub-Product",
+          "modelType": {
+            "name": "SubmodelElementCollection"
+          },
+          "value": [
+            {
+              "ordered": false,
+              "allowDuplicates": false,
+              "semanticId": {
+                "keys": []
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "Part_A",
+              "modelType": {
+                "name": "SubmodelElementCollection"
+              },
+              "value": [
+                {
+                  "value": "350 g",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Mass",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": ""
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "0",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Dimensions",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": ""
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "0",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Temperature",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": ""
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "0",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Center of Mass",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": ""
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "0",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Static Friction Coefficient",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": ""
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "NO",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Magnetic",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": ""
+                    }
+                  },
+                  "kind": "Instance"
+                }
+              ],
+              "kind": "Instance"
+            },
+            {
+              "ordered": false,
+              "allowDuplicates": false,
+              "semanticId": {
+                "keys": []
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "Part_B",
+              "modelType": {
+                "name": "SubmodelElementCollection"
+              },
+              "value": [
+                {
+                  "value": "0",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Mass",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": ""
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "0",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Dimensions",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": ""
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "0",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Temperature",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": ""
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "0",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Center of Mass",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": ""
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "0",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Static Friction Coefficient",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": ""
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "NO",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Magnetic",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": ""
+                    }
+                  },
+                  "kind": "Instance"
+                }
+              ],
+              "kind": "Instance"
+            }
+          ],
+          "kind": "Instance"
+        }
+      ],
+      "descriptions": []
+    },
+    {
+      "semanticId": {
+        "keys": []
+      },
+      "qualifiers": [],
+      "hasDataSpecification": [],
+      "identification": {
+        "idType": "IRI",
+        "id": "https://example.com/ids/sm/5163_6190_1122_8817"
+      },
+      "idShort": "Process Requirement",
+      "modelType": {
+        "name": "Submodel"
+      },
+      "kind": "Instance",
+      "submodelElements": [
+        {
+          "ordered": false,
+          "allowDuplicates": false,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "TV1",
+          "modelType": {
+            "name": "SubmodelElementCollection"
+          },
+          "value": [
+            {
+              "ordered": false,
+              "allowDuplicates": false,
+              "semanticId": {
+                "keys": []
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "Required Property Changes",
+              "modelType": {
+                "name": "SubmodelElementCollection"
+              },
+              "value": [
+                {
+                  "value": "109 -111 mm",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Position X",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": "integer"
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "0",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Position Y",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": ""
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "199.5 - 200.5 mm",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Position Z",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": "decimal"
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "0",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Rotation X",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": "decimal"
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "0",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Rotation Y",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": ""
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "0",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Rotation Z",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": ""
+                    }
+                  },
+                  "kind": "Instance"
+                }
+              ],
+              "kind": "Instance"
+            },
+            {
+              "ordered": false,
+              "allowDuplicates": false,
+              "semanticId": {
+                "keys": []
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "Required Further Contraints",
+              "modelType": {
+                "name": "SubmodelElementCollection"
+              },
+              "value": [
+                {
+                  "value": "0",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Force X",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": ""
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "0",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Force Y",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": ""
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "-100 N",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Force Z",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": "integer"
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "0",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Moments X",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": ""
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "0",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Moments Y",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": ""
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "0",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Moments Z",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": ""
+                    }
+                  },
+                  "kind": "Instance"
+                }
+              ],
+              "kind": "Instance"
+            },
+            {
+              "ordered": false,
+              "allowDuplicates": false,
+              "semanticId": {
+                "keys": []
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "Sub Product Involved",
+              "modelType": {
+                "name": "SubmodelElementCollection"
+              },
+              "value": [
+                {
+                  "value": "B",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Moving",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": "anyType"
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "A",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Static",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": "anyType"
+                    }
+                  },
+                  "kind": "Instance"
+                }
+              ],
+              "kind": "Instance"
+            },
+            {
+              "ordered": false,
+              "allowDuplicates": false,
+              "semanticId": {
+                "keys": []
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "Stable End",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "SubmodelElementCollection"
+              },
+              "value": [
+                {
+                  "value": "True",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "TRUE",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": ""
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "False",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "FALSE",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": ""
+                    }
+                  },
+                  "kind": "Instance"
+                }
+              ],
+              "kind": "Instance"
+            }
+          ],
+          "kind": "Instance"
+        }
+      ]
+    },
+    {
+      "semanticId": {
+        "keys": []
+      },
+      "qualifiers": [],
+      "hasDataSpecification": [],
+      "identification": {
+        "idType": "IRI",
+        "id": "https://example.com/ids/sm/9455_2231_1122_6691"
+      },
+      "idShort": "Identification",
+      "modelType": {
+        "name": "Submodel"
+      },
+      "kind": "Instance",
+      "submodelElements": [
+        {
+          "value": "HTTP://Requirements/Trial007",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": false,
+                "value": "AssetId",
+                "index": 0,
+                "idType": "IdShort"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "type": "",
+              "valueType": "",
+              "valueId": {
+                "keys": []
+              },
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [
+            {
+              "dataSpecification": {
+                "keys": [
+                  {
+                    "type": "",
+                    "local": false,
+                    "value": "",
+                    "index": 0,
+                    "idType": ""
+                  }
+                ]
+              }
+            }
+          ],
+          "idShort": "AssetId",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        }
+      ]
+    }
+  ],
+  "conceptDescriptions": []
+}
