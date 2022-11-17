@@ -1,0 +1,79 @@
+import json
+from pymongo import MongoClient
+
+client = MongoClient('localhost', 27017)
+db = client['countries_db']
+collection_currency = db['currency']
+
+with open(r"D:\Thesis\json\Trail1.json") as f:
+    file_data = json.load(f)
+
+
+
+def get_submodelElements(submodelElements):
+    values = []
+    idShorts = []
+    for submodelElement in submodelElements:
+        if not isinstance(submodelElement['value'], list):
+            values.append(submodelElement['value'])
+            idShorts.append(submodelElement['idShort'])
+    return values, idShorts
+
+#print(get_submodelElements(file_data['submodels'][0]['submodelElements']))
+
+
+
+def get_subproductElements(submodelProducts):
+    values = []
+    idShorts = []
+    #print(submodelProducts)
+    for submodelProduct in submodelProducts:
+        if not isinstance(submodelProduct['value'], list):
+            values.append(submodelProduct['value'])
+            idShorts.append(submodelProduct['idShort'])
+    return values, idShorts
+
+#print(get_subproductElements(file_data['submodels'][0]['submodelElements'][-1]['value'][0]['value']))
+
+
+
+def dictionary_loop(dict1):
+    global final_dict
+    final_dict = {}
+    for i in dict1:
+        #print(i)
+
+        if isinstance(dict1[i], dict):
+            dictionary_loop(dict1[i])
+        else:
+            try:
+                #print(i)
+                for j in range(0, len(dict1[i])):
+
+                    print(get_submodelElements(dict1[i][j]['submodelElements']))
+
+                    print(get_subproductElements(dict1['submodels'][0]['submodelElements'][-1]['value'][j]['value']))
+                    #dictionary_loop(dict1[i][j])
+
+
+                #dictionary_loop(dict1[i])
+
+            except:
+                continue
+
+    # print(level)
+
+
+
+level1 = dictionary_loop(file_data)
+
+
+
+
+# if pymongo < 3.0, use insert()
+# if pymongo >= 3.0 use insert_one() for inserting one document
+#collection_currency.insert_one(file_data)
+
+
+#client.close()
+
